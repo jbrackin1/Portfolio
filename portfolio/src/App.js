@@ -15,7 +15,7 @@ function App() {
         <div className="flex justify-center space-x-4 mt-2">
           <a href="mailto:jbrackin1@gmail.com"><Mail className="w-5 h-5" /></a>
           <a href="tel:2254214403"><Phone className="w-5 h-5" /></a>
-          <a href="#"><Github className="w-5 h-5" /></a>
+          <a href="https://www.github.com/jbrackin1"><Github className="w-5 h-5" /></a>
         </div>
       </section>
 
@@ -24,7 +24,7 @@ function App() {
         <CardContent className="p-4">
           <h2 className="text-2xl font-semibold mb-2">About Me</h2>
           <p>
-            Senior Full-Stack Developer with active OTS clearance and deep experience in secure, scalable web and mobile software. Skilled in C#/.NET, React, Azure, AWS, and IoT. Proven success delivering solutions in government, maritime logistics, automotive, and nonprofit sectors.
+            Senior Full-Stack Developer with OTS clearance and deep experience in secure, scalable web and mobile software. Skilled in C#/.NET, React, Azure, AWS, and IoT. Proven success delivering solutions in government, maritime logistics, automotive, and nonprofit sectors.
           </p>
         </CardContent>
       </Card>
@@ -86,9 +86,3 @@ function App() {
 }
 
 export default App;
-
-
-
-// export default function Portfolio() {
-   
-// }
