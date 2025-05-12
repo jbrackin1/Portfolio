@@ -1,7 +1,8 @@
-export function Card({ children }) {
-  return <div className="border rounded-md shadow p-4 bg-white">{children}</div>;
-}
+/** @format */
 
-export function CardContent({ children, className }) {
-  return <div className={className}>{children}</div>;
-}
+export const Card = ({ title, children }) => (
+	<div className="Card">
+		{title && <h2>{title}</h2>}
+		{children}
+	</div>
+);
