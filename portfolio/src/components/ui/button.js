@@ -1,7 +1,7 @@
-export function Button({ children }) {
-  return (
-    <button className="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">
-      {children}
-    </button>
-  );
-}
+/** @format */
+
+export const Button = ({ href, children }) => (
+	<a href={href} target="_blank" rel="noopener noreferrer" className="Button">
+		{children}
+	</a>
+);
