@@ -6,7 +6,6 @@ import { Github, Mail, Phone } from "lucide-react";
 
 function App() {
   return (
-
  <main className="max-w-5xl mx-auto p-6 space-y-8">
       {/* Header */}
       <section className="text-center">
