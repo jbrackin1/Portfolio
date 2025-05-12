@@ -1,10 +1,13 @@
-import { Card, CardContent } from "@/components/ui/card";
-import { Button } from "@/components/ui/button";
+import logo from './logo.svg';
+import './App.css';
+import { Card, CardContent } from "./components/ui/card";
+import { Button } from "./components/ui/button";
 import { Github, Mail, Phone } from "lucide-react";
 
-export default function Portfolio() {
+function App() {
   return (
-    <main className="max-w-5xl mx-auto p-6 space-y-8">
+
+ <main className="max-w-5xl mx-auto p-6 space-y-8">
       {/* Header */}
       <section className="text-center">
         <h1 className="text-4xl font-bold">Jerod Brackin</h1>
@@ -81,3 +84,11 @@ export default function Portfolio() {
     </main>
   );
 }
+
+export default App;
+
+
+
+// export default function Portfolio() {
+   
+// }
