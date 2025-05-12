@@ -29,7 +29,7 @@ function App() {
 						<Github className="w-5 h-5" />
 					</a>
 				</div>
-				<Button href="/jerod-brackin-resume.pdf">Download Résumé</Button>
+				{/* <Button href="/jerod-brackin-resume.pdf">Download Résumé</Button> */}
 			</header>
 
 			{/* About Me */}
